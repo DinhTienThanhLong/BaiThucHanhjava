@@ -53,5 +53,8 @@ public class Point {
     public void in(){
         System.out.println( ""+ TenDiem + "(" + x +"," + y  );
     }
+    public double tinhKC(Point d2){
+        return Math.sqrt((x-d2.x)*(x-d2.x)+(y-d2.y)*(y-d2.y));
+    }
     
 }
